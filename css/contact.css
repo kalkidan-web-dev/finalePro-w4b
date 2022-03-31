@@ -1,0 +1,89 @@
+body{
+background-image: url("/images/photo-contactUs.webp");
+}
+
+a{
+text-decoration:none;
+
+}
+
+
+
+nav{
+    margin-top:50px;
+    position: sticky;
+    display: inline-block;
+    float: right;
+    background-color: #4c95b0;
+    margin-bottom: 50px;
+    width: 100%;
+    height:30px;
+    text-align: center;
+    decoration: none;
+    padding-left: 10px;
+    color: white;
+    padding-top: 5px;
+    }
+    .logo-img{
+        height:30px;
+        width: 100px;
+    }
+
+    .nav-link{
+
+        float:right;
+        padding-right:15px;
+        
+        }
+         nav .nav-link:hover{
+            color:navy ;
+            background-color: whitesmoke;
+            
+            }
+            
+
+a .logo-img{
+
+  float:left;
+            
+ }
+
+      a{
+     text-decoration: none;  
+    color: aliceblue;  
+}
+
+
+button .contact-link{
+    height: 100px;  
+    width: 200px;
+    display: list-item;
+    text-align: center;
+    margin: 20px;
+    background-color: #4c95b0;
+    color: whitesmoke;
+      
+}
+
+
+
+button .contact-link:hover{
+
+  
+  color:#4c95b0;   
+ background-color: aliceblue;
+
+  
+ } 
+
+ section{
+margin:10px;
+
+  } 
+                        
+.contact-us{
+float: left;
+width: 45%;
+margin: 10px;
+
+}
