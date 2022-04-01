@@ -1,5 +1,5 @@
 body{
-background-image: url("/images/photo-contactUs.webp");
+background-image: url("/images/photo-CONTACT-US.webp");
 }
 
 a{
@@ -7,7 +7,7 @@ text-decoration:none;
 
 }
 
-
+/* nav bar start here  */
 
 nav{
     margin-top:50px;
@@ -22,8 +22,9 @@ nav{
     decoration: none;
     padding-left: 10px;
     color: white;
-    padding-top: 5px;
+    padding: 5px;
     }
+    
     .logo-img{
         height:30px;
         width: 100px;
@@ -33,6 +34,8 @@ nav{
 
         float:right;
         padding-right:15px;
+        background-color: #4c95b0;
+        color: whitesmoke;
         
         }
          nav .nav-link:hover{
@@ -54,8 +57,13 @@ a .logo-img{
 }
 
 
-button .contact-link{
-    height: 100px;  
+          /* /* nav bar * end here/ */
+h2{
+
+  color: whitesmoke;
+}
+.contact-link{
+    height: 50px;  
     width: 200px;
     display: list-item;
     text-align: center;
@@ -87,3 +95,46 @@ width: 45%;
 margin: 10px;
 
 }
+.mapouter{
+
+height:70px;
+width: 30%;
+
+}
+
+
+footer a li {
+
+  background-color:radial-gradient( gray,whitesmoke);
+  decoration: none;
+  width: 100%;
+  bottom: 0;
+  display: inline;
+  margin: 20px;
+  }
+  
+  a li{
+  decoration:none ;
+  
+  }
+  footer a:hover{
+  
+  color: #4c95b0;
+  
+  }
+  .goto-top{
+  
+     float:right; 
+     width: 50%;
+  
+  }
+  /* hr{
+
+height: 3px;
+background-color: #4c95b0;
+  } */
+
+  hr{
+    background-color: #4c95b0;
+    height: 3px;
+        }

@@ -1,29 +1,31 @@
 body{
 color:whitesmoke;
-background-image: url("/images/photo-butterfly.webp");
+background-image: url("/images/photo-about-US.webp");
 width: 100%;
 
 }
 
 
-h1{
-color: #4c95b0;
+h2{
+color: whitesmoke;
 
   
 }
-.aside{
+p{
+
+width:70% ;
+margin-left:15% ;
+}
+p .aside{
     
-margin-top: 10px;
-width: 50%;
+margin: 5%;
+width: 40%;
 float: right; 
 }
-.aboutUs-bottom{
 
-  width: 100%;  
-
-}
 #aboutUs-img{
 height: 200px;
+margin-left: 390px;
 } 
 nav{
     margin-top:50px;
@@ -38,7 +40,7 @@ nav{
     decoration: none;
     padding-left: 10px;
     color: white;
-    padding-top: 5px;
+    padding: 5px;
     }
 
     .logo-img{
@@ -51,6 +53,8 @@ nav{
 
         float:right;
         padding-right:15px;
+        background-color: #4c95b0;
+        color: whitesmoke;
         
         }
         .nav-link:hover{
@@ -71,17 +75,44 @@ nav{
 
 
 
-                button {
-
-                    width: 100px;
-                    background-color:#4c95b0;   
-                    color: aliceblue;
-                    }
-                          
+                
                     
-button:hover{
+footer{
+margin-top: 20px;
 
-background-color: whitesmoke;
-color: #4c95b0;
 
 }
+
+footer a li {
+
+    background-color:radial-gradient( gray,whitesmoke);
+    decoration: none;
+     width: 100%;
+    bottom: 0; 
+    display: inline;
+    margin-right: 20px;
+
+    
+    }
+    
+    a li{
+    decoration:none ;
+    
+    }
+    footer a:hover{
+    
+    color: #4c95b0;
+    
+    }
+    .goto-top{
+    
+       float:right; 
+       width: 50%;
+    
+    }
+
+    hr{
+        background-color: #4c95b0;
+        height: 3px;
+            }
+
