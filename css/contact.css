@@ -1,5 +1,5 @@
 body{
-background-image: url("/images/photo-CONTACT-US.webp");
+background-image: url("../images/photo-CONTACT-US.webp");
 background-position:center;
    background-repeat: no-repeat; 
     background-size:cover; 
@@ -137,11 +137,11 @@ footer a li {
      width: 50%;
   
   }
-  /* hr{
+  hr{
 
 height: 3px;
 background-color: #4c95b0;
-  } */
+  } 
 
   hr{
     background-color: #4c95b0;

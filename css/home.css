@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/photo-1519817914152-22d216bb9170.webp);
+    background-image: url(../images/photo-1519817914152-22d216bb9170.webp);
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover; 
@@ -111,18 +111,19 @@ float: right;
 width: 40%;
 
 }
- .aside-withVideo{
+ /* .aside-withVideo{
 
 width: 40%;
 float: right;
 height: 200px;
 
 
-  }
+  } */
   video{
-   padding-right: 30px; 
+   padding-right: 50px; 
+   padding-left: 200px;
   }
-                
+                 
 
 
 .more-info{
@@ -149,6 +150,7 @@ width: 100%;
 bottom: 0;
 display: inline;
 margin: 20px;
+margin-bottom: 300px;
 }
 
 a li{
