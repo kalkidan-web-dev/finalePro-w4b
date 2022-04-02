@@ -92,11 +92,19 @@ background-color: #4c95b0;
                 
                  padding-bottom: 30px;
                 } */
-p{
-margin-left: 20px;
+    
 
 
-}
+                video{
+                    width: 300px;
+                    height:100px;
+                margin-left: 100px;
+                margin-right: 100px;
+                    }
+
+
+
+
 article p{
 padding-left: 50px;
 float: right;

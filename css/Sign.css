@@ -59,8 +59,8 @@ nav{
 padding-top:30px;
 background-color: #4c95b0;
 color: whitesmoke;
-margin-left: 20%;
-margin-right: 20%;
+ margin-left: 25%;
+margin-right: 25%; 
 width:50% ;
 height:450px;
 float: right;
@@ -86,7 +86,7 @@ color: whitesmoke;
 
     background-color:radial-gradient( gray,whitesmoke);
     decoration: none;
-     /* width: 100%;  */
+     width: 100%;  
     bottom: 0;
     display: inline;
      margin: 10px; 
@@ -96,7 +96,7 @@ color: whitesmoke;
     decoration:none ;
     
     }
-    footer a:hover{
+    footer a li:hover{
     
     color: #4c95b0;
     

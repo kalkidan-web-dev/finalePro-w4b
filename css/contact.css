@@ -1,5 +1,13 @@
 body{
 background-image: url("/images/photo-CONTACT-US.webp");
+background-position:center;
+   background-repeat: no-repeat; 
+    background-size:cover; 
+    height:100%;
+    width:100%; 
+    color: whitesmoke
+
+
 }
 
 a{
@@ -58,24 +66,25 @@ a .logo-img{
 
 
           /* /* nav bar * end here/ */
-h2{
+h2 .contact-us{
 
   color: whitesmoke;
 }
 .contact-link{
     height: 50px;  
-    width: 200px;
-    display: list-item;
+    width: 70px;
+    /* display: list-item; */
     text-align: center;
     margin: 20px;
     background-color: #4c95b0;
     color: whitesmoke;
+    float: right;
       
 }
 
 
 
-button .contact-link:hover{
+.contact-link:hover{
 
   
   color:#4c95b0;   
@@ -84,15 +93,15 @@ button .contact-link:hover{
   
  } 
 
- section{
+ /* section{
 margin:10px;
 
-  } 
+  }  */
                         
 .contact-us{
-float: left;
+float:right;
 width: 45%;
-margin: 10px;
+ margin: 10px; 
 
 }
 .mapouter{
@@ -105,7 +114,7 @@ width: 30%;
 
 footer a li {
 
-  background-color:radial-gradient( gray,whitesmoke);
+  /* background-color:radial-gradient( gray,whitesmoke); */
   decoration: none;
   width: 100%;
   bottom: 0;
@@ -119,7 +128,7 @@ footer a li {
   }
   footer a:hover{
   
-  color: #4c95b0;
+  color:#4c95b0;
   
   }
   .goto-top{
